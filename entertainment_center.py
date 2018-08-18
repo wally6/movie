@@ -1,5 +1,5 @@
-import fresh_tomatoes
 import media
+import fresh_tomatoes
 
 toy_story = media.Movie("Toy Story",
                         "A story of a boy and his toys that come to life",
@@ -15,6 +15,9 @@ wreck_it_ralph_2 = media.Movie("Wreck it Ralph",
                                "A story of acrade game player breaking the internet",
                                "https://en.wikipedia.org/wiki/Ralph_Breaks_the_Internet#/media/File:Ralph_Breaks_the_Internet_poster.jpg",
                                "https://www.youtube.com/watch?v=KHQhp2cGZtE")
+
+print (avatar.storyline)
+avatar.show_trailer()
 
 movies = [toy_story, acatar, wreck_it_ralph_2]
 fresh_tomatoes.open_movies_page (movies)
