@@ -1,4 +1,5 @@
 import webbrowser
+import turtle
 
 class Movie():
     def __init__ (self, movie_title, moive_storyline, poster_image, trailer_youtube):
@@ -9,4 +10,11 @@ class Movie():
 
 def show_trailer(self):
     webbrowser.open(self.trailer_youtube_url)
-    
+
+def draw_square():
+    windows = turtle.Screen()
+    window.bgcolor("red")
+    w = turtle.Turtle()
+    w.forward(100)
+
+    window.exitonclick()
