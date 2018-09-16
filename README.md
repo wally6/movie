@@ -39,3 +39,13 @@ contains script for genrating webpage using instances of movies.
 fresh_tomatoes.open_movies_page(movies)
 
 where movies is list of instances of class Movie.
+
+How to Run Project
+
+Download the project zip file to you computer and unzip the file. Or clone this repository to your desktop.
+
+Open the text-based interface for your operating system (e.g. the terminal window in Linux, the command prompt in Windows).
+
+Navigate to the project directory and type in the following command:
+
+python entertainment_center.py
