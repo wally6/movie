@@ -1,6 +1,9 @@
+""" Stores detials of movies and visuals on website"""
 import media
 import fresh_tomatoes
 
+def main():
+    """ Creates three mvoie objects, initialising these objects with title, storeline, poster link, and trailer link."""
 toy_story = media.Movie("Toy Story",
                         "A story of a boy and his toys that come to life",
                         "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
