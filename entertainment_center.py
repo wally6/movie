@@ -1,6 +1,7 @@
 """ Stores detials of movies and visuals on website"""
 import media
 import fresh_tomatoes
+import math, sys;
 
 def main():
     """ Creates three mvoie objects, initialising these objects with title, storeline, poster link, and trailer link."""
