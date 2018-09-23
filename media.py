@@ -1,6 +1,7 @@
 """ Defines the Movie class that contains the details of a movie."""
 import webbrowser
 import turtle
+import math, sys;
 
 class Movie ():
     """This class provides a way to save and store movies trailers
