@@ -4,7 +4,7 @@ import turtle
 import math, sys;
 
 class Movie ():
-    """This class provides a way to save and store movies trailers
+"""This class provides a way to save and store movies trailers
 
 Attributes:
         title: A string to store the title of movies.
@@ -26,12 +26,12 @@ VALID_RATINGS = ["G",
                         "PG-13",
                         "R"]
 
-
+""" plays the movie trailer in the web browser."""
 def show_trailer (self):
     webbrowser.open(self.trailer_youtube_url)
-    """ plays the movie trailer in the web browser."""
-
-
+    
+    
+""" shows box line in the web browser."""
 def draw_square ():
     window.exitonclick ()
-    """ shows box line in the web browser."""
+    
