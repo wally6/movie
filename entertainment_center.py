@@ -3,8 +3,9 @@ import media
 import fresh_tomatoes
 import math, sys;
 
+
+""" Creates three mvoie objects, initialising these objects with title, storeline, poster link, and trailer link."""
 def main():
-    """ Creates three mvoie objects, initialising these objects with title, storeline, poster link, and trailer link."""
 toy_story = media.Movie("Toy Story",
                         "A story of a boy and his toys that come to life",
                         "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
@@ -22,6 +23,6 @@ venom = media.Movie("Venom",
                     "https://www.youtube.com/watch?v=zX81KEqzy_M")
 
 
-
+""" Movie trailer using fresh tomatoe"""
 movies = [toy_story, avatar, venom]
 fresh_tomatoes.open_movies_page (movies)
